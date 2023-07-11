@@ -28,6 +28,7 @@
             <select class="currency-select">
                 <option value="dolar">US$ Dólar americano</option>
                 <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
             </select>
         </label>
 
@@ -40,7 +41,7 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/brasil 2.svg" alt="logo-moeda-a-converter">
+                <img class="source-currency" src="./assets/brasil 2.svg" alt="logo-moeda-a-converter">
                 <p class="currency">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
@@ -48,7 +49,7 @@
             <img class="arrow-img" src="./assets/arrow.svg.svg" alt="seta">
 
             <div class="currency-box">
-                <img class="currency-img" src="./assets/estados-unidos.svg" alt="logo-moeda-convertida">
+                <img id="currency-to-be-converted" class="currency-img" src="./assets/estados-unidos.svg" alt="logo-moeda-convertida">
                 <p class="currency" id="currency-name">Dólar americano</p>
                 <p class="currency-value">US$ 0.0</p>
             </div>
